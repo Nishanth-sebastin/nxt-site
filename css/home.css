@@ -171,6 +171,70 @@ svg {
   box-shadow: 16px 12px 6px rgba(0, 0, 0, 0.2),
     12px 8px 12px rgba(0, 0, 0, 0.14), 4px 4px 4px rgba(0, 0, 0, 0.12);
 }
+.line {
+  background-color: #dc143c;
+  border: 1px #fd0988 solid;
+  width: 100px;
+  position: relative;
+  left: 100px;
+}
+.test h3 {
+  color: white;
+  position: relative;
+  left: 0px;
+}
+.test h3 {
+  margin-left: 230px;
+  position: relative;
+  bottom: 13px;
+}
+.main-test h1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 100px;
+  font-weight: bolder;
+}
+.mainpara {
+  margin: 0px 170px;
+  font-weight: lighter;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  right: 70px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 130px;
+}
+.review1,
+.review2 {
+  border: 2px red solid;
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 400px;
+  width: 550px;
+  border-radius: 2ch;
+}
+.review1 h5,
+h6,
+p {
+  color: white;
+}
+.review2 h5,
+h6,
+p {
+  color: white;
+}
 
 @media (max-width: 768px) {
   .menu {
@@ -197,6 +261,8 @@ svg {
   .blocks {
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: 180px;
   }
   .block1,
   .block2,
